@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap&family=Bebas+Neue&display=swap&family=Space+Mono&display=swap&family=Roboto+Slab&display=swap');
+
+
+/* ---------Global Styles---------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.g-banner {
+    background-color: #2776dd;
+    color: white;
+    padding: 10px;
+}
+
+.g-banner .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.g-banner .sub-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.g-navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #1b1b1bd7;
+}
+
+.g-navbar a {
+    display: flex;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.g-navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.g-navbar .active-page {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: #2776dd;
+    color: white;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+footer div {
+    font-size: 1.2rem;
+    max-width: 150px;
+}
+
+/* ------------Page and Section Styles-------------- */
+
+#p-home {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: auto;
+}
+
+#p-home #s-content #title {
+    margin-top: 30px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#p-home #s-content #intro {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#p-home #s-content #html-css-icon {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#p-resume {
+    display: grid;
+    grid-template-areas:
+     "one four"
+     "two five"
+     "three six"
+    ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    max-width: 1300px;
+    margin: auto;
+}
+
+#p-resume #s-info {
+    grid-area: one;
+    border-style: solid;
+    max-width: 400px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    
+}
+
+#p-resume #s-info #resume-name {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+#p-resume #s-info #resume-job {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+
+#p-resume .resume-header {
+    margin-top: 45px;
+    max-width: 500px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#p-resume .resume-desc {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#p-resume #s-summary {
+    grid-area: two;
+    max-width: 450px;
+}
+
+
+#p-resume #s-education {
+    grid-area: three
+}
+
+#p-resume #s-experience {
+    grid-area: four;
+}
+
+#p-resume #s-skills {
+    grid-area: five;
+}
+
+#p-resume #s-add-info {
+    grid-area: six;
+}
+
+#p-resume #s-add-info .resume-desc {
+    max-width: 310px;
+}
+
+#p-resume #s-education .school {
+    font-weight: bold;
+}
+
+#p-resume #s-education .program {
+    font-style: italic;
+}
+
+#p-resume #s-experience .job {
+    font-weight: bold;
+}
+
+#p-resume #s-experience .role {
+    font-style: italic;
+}
+
+#p-resume #s-skills p {
+    font-weight: bold;
+}
+
+#webapp-head {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#p-web-samples {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#p-web-samples .sample {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+#p-web-samples .sample img {
+    border-radius: 10px;
+}
+
+#p-web-samples .sample .webapp-subhead {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+}
+
+#p-web-samples .sample .webapp-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+#p-web-samples .sample h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#p-web-samples .sample ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+#p-web-samples #s-trivia ul {
+    justify-content: space-evenly;
+}
+
+
+#others-head {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#p-other-samples {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#p-other-samples .sample {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+#p-other-samples .sample img {
+    border-radius: 10px;
+}
+
+#p-other-samples .sample .app-subhead {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+}
+
+#p-other-samples .sample .app-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    max-width: 450px;
+}
+
+#p-other-samples .sample h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#p-other-samples .sample ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 900px) {
+    #p-resume {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .g-navbar ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .g-navbar li {
+        border-style: solid;
+        border-width: 1px;
+    }
+}
+
