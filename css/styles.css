@@ -48,7 +48,7 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 30px 100px;
+    padding: 20px;
     margin: auto;
 }
 #s-content {
@@ -74,7 +74,7 @@ nav a:hover {
     display: flex;
     margin: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 .g-socials a {
     width: 33px;
@@ -328,6 +328,29 @@ nav a:hover {
         text-align: center;
         font-size: 1.7rem;
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .g-logo {
+        text-align: center;
+    }
+
+    #s-content {
+        height: 50vh;
+    }
+
+    #s-content h2 {
+        font-size: 2.2rem;
+    }
+
+    #s-content h4 {
+        font-size: 1.6rem;
+        padding-top: 12px;
+    }
+
+    #s-content p {
+        font-size: 1.2rem;
     }
 }
 
