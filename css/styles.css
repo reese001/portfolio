@@ -74,7 +74,7 @@ nav a:hover {
     display: flex;
     margin: 20px;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 .g-socials a {
     width: 33px;
