@@ -24,8 +24,10 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
-a .active {
-    color: #79d2ff;
+.active {
+    text-decoration: underline;
+    text-decoration-color: #79d2ff;
+    text-underline-offset: 10px;
 }
 
 nav a {
