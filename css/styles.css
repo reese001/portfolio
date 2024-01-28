@@ -58,6 +58,7 @@ nav a:hover {
 }
 #s-content h2 {
     font-size: 4.5rem;
+    text-align: center;
 }
 #s-content h2 span {
     color: #8a00b0;
