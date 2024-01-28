@@ -17,7 +17,7 @@ header {
 }
 .g-logo {
     font-family: 'Libre Baskerville', serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: default;
     background: linear-gradient(to right,white, #79d2ff);
     -webkit-background-clip: text;
@@ -52,21 +52,26 @@ nav a:hover {
     margin: auto;
 }
 #s-content {
-    max-width: 600px;
+    max-width: 800px;
 }
 #s-content h2 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 #s-content h2 span {
     color: #79d2ff;
 }
 #s-content h4 {
-    margin-top: -50px;
-    font-size: 2em;
+    margin-top: -70px;
+    font-size: 2.5em;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #79d2ff;
+    text-align: center;
 }
 #s-content p {
     margin-top: -20px;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 
