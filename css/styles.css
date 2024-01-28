@@ -80,17 +80,17 @@ nav a:hover {
 
 .g-socials {
     display: flex;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
+    margin: 50px;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 .g-socials a {
-    width: 33px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 35px;
     text-align: center;
-    line-height: 35px;
+    line-height: 49px;
     border: 1px solid #8a00b0;
     transition: .5s;
 }
@@ -98,7 +98,7 @@ nav a:hover {
     transform: translateY(-10px);
 }
 .g-socials a i {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #fff;
     text-align: center;
 }
@@ -334,6 +334,7 @@ nav a:hover {
     header {
         display: flex;
         flex-direction: column;
+        border-bottom: 1px solid #6d008b;
     }
     nav a {
         display: flex;
@@ -341,7 +342,33 @@ nav a:hover {
         justify-content: center;
         text-align: center;
         font-size: 1.7rem;
-        margin: 10px;
+        margin: auto;
+    }
+
+    #s-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    #s-content h2 {
+        font-size: 2.4rem;
+    }
+
+    #s-content h4 {
+        font-size: 2rem;
+        padding: 8px;
+        text-align: center;
+    }
+
+    #s-content p {
+        font-size: 1.3rem;
+    }
+
+    .g-socials {
+        justify-content: center;
     }
 }
 
