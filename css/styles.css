@@ -70,7 +70,7 @@ nav a:hover {
     border-width: 2px;
     border-color: #8a00b0;
     text-align: center;
-    box-shadow: 0 0 20px #8a00b0;
+    box-shadow: 0 0 20px #6d008b;
 }
 #s-content p {
     margin-top: -20px;
@@ -131,7 +131,7 @@ nav a:hover {
 }
 
 .cards:hover {
-    box-shadow: 0 0 25px #8a00b0;
+    box-shadow: 0 0 25px #6d008b;
 }
 
 .cards img {
@@ -176,7 +176,7 @@ nav a:hover {
 }
 
 #s-skills li:hover {
-    border-color: white;
+    border-color: #e593fb;
 }
 
 #s-education {
@@ -282,7 +282,7 @@ nav a:hover {
 }
 
 #p-other-apps a:hover {
-    border-color: white;
+    border-color: #e593fb;
 }
 
 #p-other-apps {
@@ -345,7 +345,7 @@ nav a:hover {
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 487px) {
     .g-logo {
         text-align: center;
     }
@@ -370,6 +370,11 @@ nav a:hover {
     #s-content p {
         margin-top: -10px;
         font-size: 1.2rem;
+    }
+
+    .cards h1 {
+        border-bottom: 2px solid #8a00b0;
+        text-decoration: none;
     }
 }
 
