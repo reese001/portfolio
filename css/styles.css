@@ -27,9 +27,7 @@ header {
 
 
 .active {
-    text-decoration: underline;
-    text-decoration-color: #8a00b0;
-    text-underline-offset: 10px;
+    border-bottom: 3px solid #8a00b0;
 }
 
 nav a {
