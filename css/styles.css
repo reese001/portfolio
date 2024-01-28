@@ -19,10 +19,14 @@ header {
     font-family: 'Libre Baskerville', serif;
     font-size: 2.5rem;
     cursor: default;
-    background: linear-gradient(to right,white, #79d2ff);
+}
+
+.g-logo span {
+    background: linear-gradient(to right,rgb(255, 255, 255), #79d2ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .active {
     text-decoration: underline;
@@ -101,9 +105,11 @@ nav a:hover {
 }
 
 .g-head {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: center;
-    margin: auto;
+    border-bottom: 2px solid #79d2ff;
+    margin-bottom: 35px;
+    
 }
 
 #p-resume {
@@ -123,6 +129,11 @@ nav a:hover {
     border-style: solid;
     border-width: 2px;
     border-color: #79d2ff;
+    transition: .4s;
+}
+
+.cards:hover {
+    box-shadow: 0 0 25px #0dadfd;
 }
 
 .cards img {
@@ -336,29 +347,40 @@ nav a:hover {
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 475px) {
     .g-logo {
         text-align: center;
     }
 
     #s-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         height: 50vh;
     }
 
     #s-content h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
+        text-align: center;
     }
 
     #s-content h4 {
         font-size: 1.6rem;
-        padding-top: 12px;
+        padding: auto;
     }
 
     #s-content p {
+        margin-top: -10px;
         font-size: 1.2rem;
     }
 }
 
-
+@media screen and (max-width: 370px) {
+    #s-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
 
 
