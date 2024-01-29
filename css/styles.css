@@ -22,12 +22,12 @@ header {
 }
 
 .g-logo span {
-    color: #8a00b0;
+    color: #006fb0;
 }
 
 
 .active {
-    border-bottom: 3px solid #8a00b0;
+    border-bottom: 3px solid #006fb0;
 }
 
 nav a {
@@ -38,7 +38,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color: #8a00b0;
+    color: #006fb0;
 }
 
 
@@ -60,7 +60,7 @@ nav a:hover {
     margin-bottom: 85px;
 }
 #s-content h2 span {
-    color: #8a00b0;
+    color: #006fb0;
 }
 #s-content h4 {
     margin-top: -70px;
@@ -68,9 +68,9 @@ nav a:hover {
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #8a00b0;
+    border-color: #006fb0;
     text-align: center;
-    box-shadow: 0 0 20px #6d008b;
+    box-shadow: 0 0 15px #1ab5fc;
 }
 #s-content p {
     margin-top: -20px;
@@ -91,7 +91,7 @@ nav a:hover {
     margin-right: 35px;
     text-align: center;
     line-height: 49px;
-    border: 1px solid #8a00b0;
+    border: 1px solid #006fb0;
     transition: .5s;
 }
 .g-socials a:hover {
@@ -106,7 +106,7 @@ nav a:hover {
 .g-head {
     font-size: 1.8rem;
     text-align: center;
-    border-bottom: 2px solid #8a00b0;
+    border-bottom: 2px solid #006fb0;
     margin-bottom: 35px;
 }
 
@@ -126,12 +126,12 @@ nav a:hover {
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
-    border-color: #8a00b0;
+    border-color: #006fb0;
     transition: .3s;
 }
 
 .cards:hover {
-    box-shadow: 0 0 25px #c600fd;
+    box-shadow: 1px 1px 30px #1ab5fc;
 }
 
 .cards img {
@@ -145,7 +145,7 @@ nav a:hover {
     padding: 10px;
     text-decoration: underline;
     text-underline-offset: 10px;
-    text-decoration-color: #8a00b0;
+    text-decoration-color: #006fb0;
 }
 
 .cards #s-about-me p {
@@ -171,12 +171,12 @@ nav a:hover {
     border-width: 2px;
     border-radius: 10px;
     margin: 10px;
-    border-color: #8a00b0;
+    border-color: #006fb0;
     transition: .3s;
 }
 
 #s-skills li:hover {
-    border-color: #e593fb;
+    border-color: #63ceff;
 }
 
 #s-education {
@@ -273,7 +273,7 @@ nav a:hover {
     color: white;
     border-style: solid;
     border-radius: 10px;
-    border-color: #8a00b0;
+    border-color: #006fb0;
     border-width: 2px;
     font-size: 1.2rem;
     transition: .3s;
@@ -282,7 +282,7 @@ nav a:hover {
 }
 
 #p-other-apps a:hover {
-    border-color: #e593fb;
+    border-color: #63ceff;
 }
 
 #p-other-apps {
@@ -334,7 +334,7 @@ nav a:hover {
     header {
         display: flex;
         flex-direction: column;
-        border-bottom: 2px solid #6d008b;
+        border-bottom: 2px solid #006fb0;
     }
     nav a {
         display: flex;
@@ -347,8 +347,8 @@ nav a:hover {
 
     nav .active {
         border-style: none;
-        color: #8a00b0;
-        text-shadow: 1px 1px 20px #6d008b;
+        color: #006fb0;
+        text-shadow: 0 0 40px #1ab5fc;
     }
 
     #s-content {
