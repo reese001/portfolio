@@ -127,11 +127,11 @@ nav a:hover {
     border-style: solid;
     border-width: 2px;
     border-color: #8a00b0;
-    transition: .4s;
+    transition: .3s;
 }
 
 .cards:hover {
-    box-shadow: 0 0 25px #6d008b;
+    box-shadow: 0 0 25px #c600fd;
 }
 
 .cards img {
@@ -334,7 +334,7 @@ nav a:hover {
     header {
         display: flex;
         flex-direction: column;
-        border-bottom: 1px solid #6d008b;
+        border-bottom: 2px solid #6d008b;
     }
     nav a {
         display: flex;
@@ -369,6 +369,7 @@ nav a:hover {
 
     .g-socials {
         justify-content: center;
+        padding-left: 50px;
     }
 }
 
@@ -396,13 +397,19 @@ nav a:hover {
 
     #s-content p {
         margin-top: -10px;
+        margin-left: 10px;
         font-size: 1.2rem;
+        text-align: center;
     }
 
-    .cards h1 {
-        border-bottom: 2px solid #8a00b0;
-        text-decoration: none;
+    .g-socials {
+        padding-left: 50px;
     }
+
+    .g-head h1 {
+        font-size: 2.5rem;
+    }
+
 }
 
 @media screen and (max-width: 370px) {
