@@ -330,7 +330,7 @@ nav a:hover {
     margin: auto;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 765px) {
     header {
         display: flex;
         flex-direction: column;
@@ -343,6 +343,12 @@ nav a:hover {
         text-align: center;
         font-size: 1.7rem;
         margin: auto;
+    }
+
+    nav .active {
+        border-style: none;
+        color: #8a00b0;
+        text-shadow: 1px 1px 20px #6d008b;
     }
 
     #s-content {
@@ -403,7 +409,7 @@ nav a:hover {
     }
 
     .g-socials {
-        padding-left: 50px;
+        padding-left: 36px;
     }
 
     .g-head h1 {
