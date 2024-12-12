@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,42 +24,25 @@
                         <span class="text-[#D19900]">Parsons</span>
                     </a>
                     <div class="hidden md:flex space-x-4 lg:space-x-8">
-                        <a
-                            href="#home"
-                            class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out"
-                            >Home</a
-                        >
-                        <a
-                            href="#about"
-                            class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out"
-                            >About Me</a
-                        >
-                        <a
-                            href="#projects"
-                            class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out"
-                            >Projects</a
-                        >
-                        <a
-                            href="#resume"
-                            class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out"
-                            >Resume</a
-                        >
+                        <a href="#home" class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out">Home</a>
+                        <a href="#about" class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out">About Me</a>
+                        <a href="#projects" class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out">Projects</a>
+                        <a href="#resume" class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out">Resume</a>
                     </div>
-                    <button class="md:hidden">
-                        <svg
-                            class="w-6 h-6"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16"
-                            />
+                    <button id="mobile-menu-button" class="md:hidden">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
+                </div>
+             
+                <div id="mobile-menu" class="hidden md:hidden px-4 py-2 bg-[#1B1B1F] border-t border-[#D19900]">
+                    <div class="flex flex-col space-y-4 py-4">
+                        <a href="#home" class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out">Home</a>
+                        <a href="#about" class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out">About Me</a>
+                        <a href="#projects" class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out">Projects</a>
+                        <a href="#resume" class="nav-link text-white hover:text-[#D19900] transition-colors duration-300 ease-in-out">Resume</a>
+                    </div>
                 </div>
             </div>
         </nav>

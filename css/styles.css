@@ -1,10 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .nav-link.active {
     color: #d19900;
 }
 
+#mobile-menu {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 40;
+}
+
+#mobile-menu.hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+#mobile-menu:not(.hidden) {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
 #home {
     background-image: radial-gradient(
-        circle at 25% 25%,
+        circle at 37% 40%,
         rgba(209, 153, 0, 0.15) 0%,
         rgba(27, 27, 31, 0.8) 25%,
         #1b1b1f 50%
